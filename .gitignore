@@ -1,0 +1,19 @@
+# Ignore these
+Assets/
+Previews/
+Original/
+
+# ... but always include these
+!source-designs/**
+!size-packs/**
+
+# OS
+.db
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+
+# zips
+*.zip
