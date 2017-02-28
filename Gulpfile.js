@@ -20,6 +20,7 @@ var ignoreTheseFiles = [
     // Win/OSX system files
     '**/*.{DS_Store,db}',
     '**/HologramEffect.png',
+    '**/hologram_effect.png',
     '**/textures/font/**',
 ];
 // Resize these files:
@@ -42,7 +43,9 @@ var thresholdables = [
     // '!**/items/someItem.png',
     // etc...
     '!**/items/icons/**/*.png',
+    '!**/icons/**/*.png',
     '!**/screen/up_indicator.png',
+    '!**/overlay/screen_up_indicator.png',
 ];
 // Optimise these files using imagemin:
 var compressables = [
